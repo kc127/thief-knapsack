@@ -1,1 +1,1 @@
-# Theif-Knapsack
+# Thief-Knapsack
