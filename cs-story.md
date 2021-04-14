@@ -39,11 +39,11 @@ Cons: this may not necessarily yield high profit
 
 How about we calculate dollars per weight for each object and select goods based on highest dollars by weight?
 ```
-goods:          (g)           1,     2,    3,   4,     5,  6,     7
-dollars:        (d, dollars)  5,     10,   0,   25,    2,  12,    25
-weights:        (w, lbs)      2,     3,    5,   7,     1,  4,     1
-dollar/weight   (d/w)         5/2,   10/3, 0/5, 25/7, 2/1, 12/4,  25/1
-                              2.5,   3.33, 0,   3.57, 2,   3,     25
+goods:          (g)           1,     2,     3,    4,      5,   6,     7
+dollars:        (d, dollars)  5,     10,    0,    25,     2,   12,    25
+weights:        (w, lbs)      2,     3,     5,    7,      1,   4,     1
+dollar/weight   (d/w)         5/2,   10/3,  0/5,  25/7,   2/1, 12/4,  25/1
+                              2.5,   3.33,  0,    3.57,   2,   3,     25
 
 ```
 Let's arrange our goods based on dollar/weight
@@ -58,9 +58,9 @@ x2 = good 4 with weight 7, Remaining W = 14 - 7 = 7 lbs,  Total Dollars so far =
 x3 = good 2 with weight 3, Remaining W = 7 - 3 = 4 lbs, Total Dollars so far = 30 + 10 = 40 dollars
 x4 = good 6 with weight 4, Remaining W = 4 - 4 = 0 lbs, Total Dollars so far = 40 + 12 = 52 dollars
 ```
-Our knapsack with contain the following goods:
+Our knapsack will contain the following goods:
 ```
- x = [7, 4, 2, 6] with total of 52 dollars.
+ x = [7, 4, 2, 6] with total of 52 dollars and total weight of 15 lbs.
 ```
 
 
