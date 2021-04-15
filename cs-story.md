@@ -28,11 +28,13 @@ x = [x1, x2, ....] where 0 = x1 || x1 = 1 .
 #### Should the thief steal goods with maximum profit?
 
 Pros: this would translate to more money quickly
-Cons: this might make the bag heavy and we might exceed the max weight knapsack can carry
+
+Cons: this might make the bag heavy and we might exceed the max weight knapsack can hold
 
 #### or should we steal goods with less weight?
 
 Pros: this would mean we have room for many goods
+
 Cons: this may not necessarily yield high profit
 
 #### Maybe a combination of both? But how?
