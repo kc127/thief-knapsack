@@ -23,19 +23,19 @@ weights: (w, lbs)      2, 3,  5, 7, 1,  4,  1
 
 Let's say x is an array that contains all the goods that the thief plans to take.
 ```
-x = [x1, x2, ....] where 0 = x1 || x = 1 .
+x = [x1, x2, ....] where 0 = x1 || x1 = 1 .
 ```
-###### Should the thief steal goods with maximum profit?
+#### Should the thief steal goods with maximum profit?
 
 Pros: this would translate to more money quickly
 Cons: this might make the bag heavy and we might exceed the max weight knapsack can carry
 
-###### or should we steal goods with less weight?
+#### or should we steal goods with less weight?
 
 Pros: this would mean we have room for many goods
 Cons: this may not necessarily yield high profit
 
-###### Maybe a combination of both? But how?
+#### Maybe a combination of both? But how?
 
 How about we calculate dollars per weight for each object and select goods based on highest dollars by weight?
 ```
